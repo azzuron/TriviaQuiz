@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Been There, Done That!</string>
+<string name="help">Help Screen</string>
+<string name="menu">Main Menu Screen</string>
+
+<string name="settings">Settings Screen</string>
+<string name="game">Game Screen</string>
+<string name="scores">Scores Screen</string>
+<string name="fname">BEEN THERE</string>
+<string name="lname">DONE THAT!</string>
+<string name="version">Version 1.0.0\nCopyright (C) 2010 Mamlambo, Inc. All Rights Reserved.</string>
+<string name="mnuPlay">Play Game</string>
+<string name="mnuScores">View Scores</string>
+<string name="mnuSettings">Settings</string>
+<string name="mnuHelp">Help</string>
+<string name="mnuTitle">Main Menu</string>
+</resources>

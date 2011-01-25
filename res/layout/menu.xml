@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bkgrnd">
+
+
+	<RelativeLayout android:layout_height="wrap_content"
+		android:id="@+id/RelativeHeader"
+		android:layout_gravity="center_horizontal" android:gravity="center_horizontal" android:layout_width="wrap_content">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/right_icon"
+			android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+			android:src="@drawable/quizicon"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/header"
+			android:layout_alignParentTop="true" android:text="@string/mnuTitle"
+			android:textColor="@color/mnuTitleColor" android:textSize="@dimen/mnuTitleSize"
+			android:layout_centerHorizontal="true"></TextView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/left_icon"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true" android:src="@drawable/quizicon"></ImageView>
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/RelativeBody"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/footer" android:layout_alignParentBottom="true" android:scaleType="fitEnd" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/half"></ImageView>
+		<ListView android:layout_height="wrap_content"
+			android:id="@+id/ListView_Menu" android:layout_width="fill_parent"
+			android:layout_alignParentTop="true" android:divider="@drawable/divider" android:listSelector="@drawable/textured"></ListView>
+	</RelativeLayout>
+
+</LinearLayout>

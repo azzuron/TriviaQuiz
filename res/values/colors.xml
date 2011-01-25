@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="title">#ffea36</color>
+<color name="version">#cbcbcb</color>
+<color name="background">#0c0e64</color>
+<color name="mnuMenuColor">#FFFF0F</color>
+<color name="mnuMenuGlow">#F00</color>
+<color name="mnuTitleColor">#f0f0f0</color>
+<color name="mnuTitleGlow">#F00</color>
+</resources>

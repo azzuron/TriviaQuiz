@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:text="Test String" android:textColor="@color/mnuMenuColor" android:shadowRadius="5" android:textSize="@dimen/mnuItemSize" android:shadowDx="3" android:shadowDy="3" android:layout_gravity="center_horizontal" android:gravity="center" android:shadowColor="@color/mnuMenuGlow"></TextView>
